@@ -1,0 +1,114 @@
+a {
+	text-decoration: none; /*menghilangkan baris bawah*/
+	font-family: Comic sans-serif;
+	font-size: 3.5vw; /* ukuran menyesuaikan layar*/
+	color: greenyellow;
+}
+
+a:hover {
+	text-decoration: none; /*menghilangkan baris bawah*/
+	font-family: Comic sans-serif;
+	font-size: 2.5vw;
+	color: blueviolet;
+}
+ body{
+ 	margin-left: 0;
+ 	margin-right: 0;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+
+ }
+
+ h3{
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ 	text-align: justify;
+ 	color: gray;
+ }
+
+ h1{
+ 	color: orange;
+ 	font-size: 3.5vw;
+ 	font-family: comic sans ms;
+ }
+/* animasi stastic*/
+ #naik{transition:transform 2s}
+ #naik:hover{transform: translateY(-5%)}
+
+ #turun{transition:transform 2s}
+ #turun:hover{transform: translateY(5%)}
+
+ #kanan{transition:transform 2s}
+ #kanan:hover{transform: translateX(5%)}
+
+ #kiri{transition:transform 2s}
+ #kiri:hover{transform: translateX(-5%)}
+
+ #rotasi1{transition: transform 2.5s;}
+ #rotasi1:hover{transform: rotateX(360deg)}
+
+ #rotasi2{transition: transform 2.5s;}
+ #rotasi2:hover{transform: rotateY(360deg)}
+ 
+ #rotasi3{transition: transform 2.5s;}
+ #rotasi3:hover{transform: rotate(360deg)}
+
+ #rotasi4{transition: transform 2.5s;}
+ #rotasi4:hover{transform: rotate(-360deg)}
+
+ #perbesar1{transition: transform 2.5s;}
+ #perbesar1:hover{transform: scaleX(1.2)}
+
+ #perbesar2{transition: transform 2.5s;}
+ #perbesar2:hover{transform: scaleY(1.2)}
+
+ #perbesar3{transition: transform 2.5s;}
+ #perbesar3:hover{transform: scale(1.2)}
+
+ #perkecil1:{transition: transform 2.5s;}
+ #perkecil1:hover{transform: scaleY(0.8)}
+
+
+ #perkecil2:{transition: transform 2.5s;}
+ #perkecil2:hover{transform: scaleX(0.8)}
+
+
+ #perkecil3:{transition: transform 2.5s;}
+ #perkecil3:hover{transform: scale(0.8)}
+
+ .buram{-webkit-filter:opacity(50%)}
+ .buram:hover{-webkit-filter: opacity(100%)}
+
+ .sepia{-webkit-filter:sepia(100%)}
+ .sepia:hover{-webkit-filter: sepia(0%)}
+
+ .hitamputih{-webkit-filter:grayscale(100%)}
+ .hitamputih:hover{-webkit-filter: grayscale(0%)}
+
+ .warna{-webkit-filter:saturate(40%)}
+ .warna:hover{-webkit-filter:saturate(100%)}
+
+ .hue{-webkit-filter:hue-rotate(180deg)}
+ .hue:hover{-webkit-filter:hue-rotate(0deg)}
+
+ /* Animasi dinamis*/
+
+ #induk{
+ 	position: relative;
+ 	padding-bottom: 15%;
+ }
+ #pertama, #kedua, #ketiga{
+ 	position: absolute; top:0%; left:0%;
+ 	opacity: 0;
+ 	animation: bergerak 15s infinite;
+ }
+ 
+ @keyframes bergerak{
+ 	0%{opacity:0; transform: translateX(100%) }
+ 	33%{opacity:1; transform: translateX(0%) }
+ 	66%{opacity:0; transform: translateX(-100%) }
+ }
+
+ #pertama{animation-delay: 0s}
+ #kedua{animation-delay: 5s}
+ #ketiga{animation-delay: 10s}
