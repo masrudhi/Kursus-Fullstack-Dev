@@ -3,6 +3,7 @@ a {
 	font-family: Comic sans-serif;
 	font-size: 3.5vw; /* ukuran menyesuaikan layar*/
 	color: greenyellow;
+     margin: 0 15px;
 }
 
 a:hover {
@@ -112,3 +113,75 @@ a:hover {
  #pertama{animation-delay: 0s}
  #kedua{animation-delay: 5s}
  #ketiga{animation-delay: 10s}
+
+.satu-gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;              /* jarak antar kotak */
+    width: 80%;
+    margin: 30px auto;
+}
+
+.item-galeri {
+    height: 320px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    overflow: hidden;       /* gambar tidak keluar dari kotak */
+    box-sizing: border-box;
+}
+
+.item-galeri img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+/* gambar zoom, kotak tetap */
+.item-galeri:hover img {
+    transform: scale(1.2);
+}
+
+
+.footer{
+    background-color:#330;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+    width:100%;
+    text-align:center;
+}
+
+.footer h2{
+    margin-bottom:15px;
+    color:#FFD700;
+}
+
+.footer-text{
+    max-width:700px;
+    margin:auto;
+    text-align:justify;
+    line-height:1.6;
+}
+
+.footer-line{
+    width:80%;
+    height:3px;
+    border:none;
+    margin:20px auto;
+    background:linear-gradient(to right,#00BFFF,#1E90FF,#00BFFF);
+    border-radius:10px;
+}
+
+.copyright{
+    margin:0;
+    font-size:15px;
+    color:#ddd;
+}
