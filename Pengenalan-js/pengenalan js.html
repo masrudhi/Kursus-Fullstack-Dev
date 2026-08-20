@@ -1,0 +1,123 @@
+<html>
+<head>
+	<script src="rumus.js"></script>
+</head>
+<body>
+<center>
+	<h3>kalkulator</h3>
+	<form name="formku">
+		<br/><input name="x" placeholder="Angka pertama"/>
+		<br/><br/><input name="y" placeholder="Angka kedua"/>
+		<br/><br/><input type="button" value="x" onclick="kali()">
+		<input type="button" value=":" onclick="bagi()">
+		<input type="button" value="+" onclick="tambah()">
+		<input type="button" value="-" onclick="kurang()">
+		<br/><br/><input type="reset" value="reset">
+		<br/><br/> <input name="hasil" placeholder="hasil" readonly/>
+	</form>
+
+		<hr>
+		<h3>Index Nilai </h3>
+		<form name="formku2">
+			<br/> <input name="tugas" placeholder="Nilai Tugas" />
+			<br/> <input name="uts" placeholder="Nilai Uts" />
+			<br/><input name="uas" placeholder="Nilai Uas" />
+			<br/><br/> <input type="button" value="Hitung" onclick="indeks()" />
+			<input type="reset" value="reset" />
+			<br/><br/><input name="akhir" placeholder="Nilai Akhir" readonly />
+			<br/><br/><input name="indeks_nilai" placeholder="indeks Nilai" readonly />
+		</form>
+
+		<hr>
+		<h3> BMI App</h3>
+		<form name="formku3">
+			<br/><input name="tinggi" placeholder="Tinggi badan (cm) /">
+			<br/><br/><input name="berat" placeholder="berat badan (kg)" />
+			<br/><br/><input type="button" value="Cek!" onclick="bmi_app()" >
+			<input type="reset" value="Reset" />
+			<br/><br/><input name="bmi" placeholder="Nilai BMi" readonly>
+			<br/><br/>
+		</form>
+
+		<hr>
+		<h3>Tiket Pesawat Online</h3>
+		<form name="formku4">
+			<br/>
+			<select name="tujuan">
+				<option>Pilih Tujuan
+				<option value="Semarang">Semarang
+				<option value="Surabaya">Surabaya
+				<option value="Surakarta">Surakarta
+				<option value="makasar">makasar
+				<option value="jakarta">Jakarta
+				<option value="jambi">Jambi
+				<option value="palembang">Palembang
+				</select>
+				<br/><br/><input name="qty" placeholder="Qty">
+				<br/><br/><input type="button" value="Proses!" onclick="tiket()">
+				<input type="reset" value="Reset" />
+				<br/><br/><input name="harga_satuan" value="Harga Satuan" readonly>
+				<br/><br/><input name="total_harga" value="Total Harga" readonly>
+				<br/><br/><input name="ppn" value="PPn 11%" readonly>
+				<br/><br/><input name="total_bayar" value="Total Bayar" readonly>
+				</form>
+
+			<hr>
+			<h3>Zodiak App</h3>
+			<form name="formku5">
+			<br/>
+			<select name="tanggal">
+				<option> Pilih Tanggal Lahir
+				<option value="1">1
+				<option value="2">2
+				<option value="3">3
+				<option value="4">4
+				<option value="5">5
+				<option value="6">6
+				<option value="7">7
+				<option value="8">8
+				<option value="9">9
+				<option value="10">10
+				<option value="11">11
+				<option value="12">12
+				<option value="13">13
+				<option value="14">14
+				<option value="15">15
+				<option value="16">16
+				<option value="17">17
+				<option value="18">18
+				<option value="19">19
+				<option value="20">20
+				<option value="21">21
+				<option value="22">22
+				<option value="23">23
+				<option value="24">24
+				<option value="25">25
+				<option value="26">26
+				<option value="27">27
+				<option value="28">28
+				<option value="29">29
+				<option value="30">30
+				<option value="31">31
+				</select>
+				<br/><br/>
+				<select name="bulan">
+					<option value="Jan">Januari
+					<option value="Feb">Febuari
+					<option value="Mar">Maret
+					<option value="Apr">April
+					<option value="Mei">Mei
+					<option value="Jun">Juni
+					<option value="Jul">July
+					<option value="Agu">Agustus
+					<option value="Sep">September
+					<option value="Okt">Oktober
+					<option value="Nov">November
+					<option value="Des">Desember
+					</select>
+					<br/><br/><input type="button" value="Cek!" onclick="zodiak()">
+					<input type="reset" value="Reset" />
+				</form>
+	</center>
+</body>
+</html>
