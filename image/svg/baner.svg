@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200">
+  <defs>
+    <linearGradient id="sky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A2980"/>
+      <stop offset="100%" stop-color="#26D0CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="200" fill="url(#sky4)"/>
+  <circle cx="640" cy="80" r="50" fill="#E74C3C" opacity="0.9"/>
+  <!-- Laut -->
+  <rect x="0" y="140" width="1280" height="60" fill="#0E2A47"/>
+  <!-- Silhouette Pulau / Bukit -->
+  <path d="M0 200 L0 150 Q 150 90 300 150 Q 450 120 600 150 Q 750 100 900 150 Q 1050 130 1280 150 L1280 200 Z" fill="#081523"/>
+  <!-- Kapal Phinisi Silhouette -->
+  <path d="M650 145 L710 145 L700 135 L660 135 Z" fill="#FFFFFF"/>
+  <path d="M685 135 L685 100 L720 110 Z" fill="#FFFFFF"/>
+  <!-- Teks -->
+  <text x="640" y="115" font-family="Arial" font-size="45" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">SURGA KOMODO LABUAN BAJO</text>
+</svg>

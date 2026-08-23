@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200">
+  <defs>
+    <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2193b0"/>
+      <stop offset="100%" stop-color="#6dd5ed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="200" fill="url(#sky2)"/>
+  <circle cx="300" cy="60" r="45" fill="#FFD700" opacity="0.8"/>
+  <!-- Laut -->
+  <rect x="0" y="150" width="1280" height="50" fill="#1B4F72"/>
+  <!-- Silhouette Gunung Rinjani -->
+  <path d="M600 200 L800 50 L1000 200 Z" fill="#0B2545"/>
+  <path d="M700 200 L800 50 L820 90 L850 70 L900 200 Z" fill="#13315C"/>
+  <!-- Teks -->
+  <text x="500" y="130" font-family="Arial" font-size="50" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">EXOTIC LOMBOK</text>
+</svg>
